@@ -294,7 +294,7 @@ if __name__ == '__main__':
 	ext = sys.argv[1]
 	if len(sys.argv)>2:
 		filename = sys.argv[2]
-		print('Make sure that "'+filename+'" contains only Hindi characters')
+		# print('Make sure that "'+filename+'" contains only Hindi characters')
 		file = open(filename)
 		lines = file.readlines()
 		file.close()
